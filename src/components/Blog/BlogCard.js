@@ -13,24 +13,6 @@ export default function BlogCard() {
                         <p></p>
                     </div>
                 </div>
-
-                <div className='blog-card'>
-                    <div className='card-head'>
-                        <h2></h2>
-                    </div>
-                    <div className='card-body'>
-                        <p></p>
-                    </div>
-                </div>
-
-                <div className='blog-card'>
-                    <div className='card-head'>
-                        <h2></h2>
-                    </div>
-                    <div className='card-body'>
-                        <p></p>
-                    </div>
-                </div>
             </div>
         </div>
     )
