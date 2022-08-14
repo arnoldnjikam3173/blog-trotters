@@ -1,9 +1,12 @@
 import React from 'react'
+import BlogSlide from './components/Blog/BlogSlide'
+import BlogCard from './components/Blog/BlogCard'
 
-const Blog = () => {
+export default function Blog() {
     return (
-        <div>Blog</div>
+        <div>
+            <BlogSlide/>
+            <BlogCard/>
+        </div>
     )
 }
-
-export default Blog

@@ -1,0 +1,12 @@
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: auto;
+}
+@media all and (min-width: 960px){
+    .container{
+        max-width: 85%;
+        margin: auto;
+        padding: 0;
+    }
+}

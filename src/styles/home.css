@@ -1,0 +1,44 @@
+/* newsLetter */
+.bg-news-letter
+{
+    background: linear-gradient(to left, rgb(174, 181, 174), rgb(57, 56, 56));padding: 10% 0px;
+}
+.news-letter
+{
+    display: flex;align-items: stretch;height: 70px;
+}
+.news-letter span input
+{
+    width: 100%;font-size: 20px;border: 1px solid #ddd;padding-left: 50px;
+}
+.news-letter span input:focus
+{
+    outline-width: 0;
+}
+.news-letter span
+{
+    width: 75%;display: flex;
+}
+.news-letter span .MdMail
+{
+    position: absolute;margin-top: 15px;margin-left: 6px;color: rgb(89, 94, 107);
+}
+.news-letter button
+{
+    width: 25%;border: none;font-size: 22px;font-weight: 600;cursor: pointer;
+}
+/* newsLetter end */
+
+
+
+
+
+
+
+@media all and (min-width: 960px){
+    .news-letter{width: 50%;}
+    .news-letter span{width: 70%;}
+    .news-letter button{width: 30%;}
+
+
+}
