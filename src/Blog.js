@@ -1,12 +1,12 @@
 import React from 'react'
 import BlogSlide from './components/Blog/BlogSlide'
-import BlogCard from './components/Blog/BlogCard'
+import BlogList from './components/Blog/BlogList'
 
 export default function Blog() {
     return (
         <div>
             <BlogSlide/>
-            <BlogCard/>
+            <BlogList/>
         </div>
     )
 }

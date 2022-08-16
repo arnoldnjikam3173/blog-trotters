@@ -7,7 +7,7 @@ export default function NewsLetter() {
             <div className='news-letter'>
                 <span>
                     <MdMail className='MdMail' size={40} />
-                    <input type='text' placeholder='Email' className='' />
+                    <input type='text' placeholder='Email' className=''/>
                 </span>
                 <button type='button' >Envoyer</button>
             </div>

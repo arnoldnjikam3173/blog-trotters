@@ -1,18 +1,20 @@
 
 header{
-    border-bottom: 1px solid rgb(197, 197, 197);
+    border-bottom: 1px solid rgb(138, 138, 138);
+    background-color: #ccc;
     transition: all .5s ease-in-out;
     display: flex;
     width: 100%;
-    padding: 10px 0;
-    height: 80px;
-}
-header:hover{
-    box-shadow: rgb(239, 239, 239) 0px 6px 12px -2px, rgb(227, 227, 227) 0px 3px 7px -3px;
+    height: 10vh;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    background-color: #212121;
 }
 .head-logo{
     display: flex;
     width: 100%;
+    color: #f5f5f5;
 }
 .head-btn{
     margin-left: auto;
@@ -36,48 +38,69 @@ header:hover{
 .head-flex .contents_ul
 { 
     display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: stretch;
     position: fixed;
     padding: 0;
-    margin: 0;
-    width: 100%;
+    margin: auto;
+    max-width: 100%;
+    height: 100vh;
+    top: 20%;
     z-index: 1000;
-    top: 11%;
     right: 0;
     bottom: 0;
+    background-color: #212121;
     transition: all .7s ease-in-out;
-    background-color: #ccc;
 }
-.head-flex ul
+.head-flex .contents_ul .ul_mobile
 {
     display: flex;
-    width: 100%;
     flex-flow: column wrap;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-around;
-    text-align: center;    
+    row-gap: 100px;
+    height: 100%;
 }
 
-.head-flex ul .head-link
+.head-flex .ul_desktop
+{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;    
+}
+.head-flex .ul_mobile .head-link
 {
     text-decoration: none;
-    width: auto;
-    color: #212121;
+    color: #f5f5f5;
+    font-size: 26px;
+    font-weight: 900;
+    transition: color .3s ease-in-out;
+}
+.head-flex .ul_desktop .head-link
+{
+    text-decoration: none;
+    color: #f5f5f5;
     font-size: 34px;
     font-weight: 900;
     transition: color .3s ease-in-out;
 }
 .head-flex div.desktop{display: none;}
-.head-flex ul .head-link:hover{color: #2121f1;}
+.head-flex ul .head-link:hover{color: rgb(50, 133, 210);}
 
 
 @media all and (min-width: 960px){
+    header{position: relative;}
     .head-flex{justify-content: space-between;}
     .head-flex div.desktop{display: block;}
     .head-flex ul:last-of-type{flex-flow: row wrap;justify-content: flex-end;width: auto;}
     .head-logo{width: auto;}
     .head-btn{display: none;}
-    .head-flex ul .head-link{font-size: 24px;}
-    .head-link:last-of-type{margin-left:30px;}
-    .head-link:not(:last-of-type){margin: 0 30px;}
+    .head-flex .ul_desktop .head-link{font-size: 24px;}
+    .head-flex .ul_desktop .head-link:last-of-type{margin-left:30px;}
+    .head-flex .ul_desktop .head-link:not(:last-of-type){margin: 0 30px;}
     .head-flex .contents_ul{display: none;}
 }

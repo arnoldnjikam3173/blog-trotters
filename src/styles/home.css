@@ -9,7 +9,7 @@
 }
 .news-letter span input
 {
-    width: 100%;font-size: 20px;border: 1px solid #ddd;padding-left: 50px;
+    width: 100%;font-size: 20px;border: 1px solid #ddd;padding-left: 50px;border-radius: 10px 0 0 10px;
 }
 .news-letter span input:focus
 {
@@ -17,7 +17,7 @@
 }
 .news-letter span
 {
-    width: 75%;display: flex;
+    display: flex;;flex-basis: 75%;
 }
 .news-letter span .MdMail
 {
@@ -25,7 +25,7 @@
 }
 .news-letter button
 {
-    width: 25%;border: none;font-size: 22px;font-weight: 600;cursor: pointer;
+    flex-basis: 25%;border: none;font-size: 22px;font-weight: 600;cursor: pointer;border-radius: 0 10px 10px 0;
 }
 /* newsLetter end */
 

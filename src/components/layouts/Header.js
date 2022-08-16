@@ -20,7 +20,7 @@ export default function Header() {
                     </div>
                 </div>
                 <div className= {isOpen ? 'active contents_ul' : 'hide contents_ul'}>
-                    <ul>
+                    <ul className='ul_mobile'>
                         <Link to='/' className='head-link' onClick={(() => {reload()})} >Home</Link>
                         <Link to='/blog' className='head-link' onClick={(() => {reload()})}>Blogs</Link>
                         <Link to='/contact' className='head-link' onClick={(() => {reload()})}>Contact</Link>
@@ -29,7 +29,7 @@ export default function Header() {
                     </ul>
                 </div>
                 <div className= 'desktop'>
-                    <ul>
+                    <ul className='ul_desktop'>
                         <Link to='/' className='head-link' >Home</Link>
                         <Link to='/blog' className='head-link'>Blogs</Link>
                         <Link to='/contact' className='head-link'>Contact</Link>
