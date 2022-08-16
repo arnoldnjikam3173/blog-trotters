@@ -1,0 +1,92 @@
+.windows-blog{
+    margin: 15% 0;
+}
+.blog-cards
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px;
+    max-width: 100%;
+}
+.blog-cards .blog-card
+{
+    border: 1px solid #ddd;
+    background-color: rgb(175, 185, 187);
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+.blog-cards .blog-card .card-img{
+    height: 260px;
+}
+.blog-cards .blog-card .card-img img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.blog-cards .blog-card .card-head
+{
+    text-transform: capitalize;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #212121;
+    padding: 0 20px;
+}
+.blog-cards .blog-card .card-img .card-head-icon
+{
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 1%;
+    color: rgb(255, 255, 255);
+}
+.blog-cards .blog-card .card-body
+{
+    text-align: justify;
+    margin: 8% 0;
+    padding: 0 20px;
+}
+.blog-cards .blog-card .card-head p:first-of-type
+{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.blog-cards .blog-card .card-foot
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.blog-cards .blog-card .card-foot .link-blog_details button
+{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 10px;
+    width: 100%;
+}
+.blog-cards .blog-card .card-foot .link-blog_details.join button
+{
+    background-color: rgb(73, 167, 221);
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+}
+
+@media all and (min-width: 960px){
+    .windows-blog{margin: auto;}
+    .blog-cards{flex-flow: row wrap;}
+    .blog-cards .blog-card{padding: 0;width: 400px;}
+
+}
+
