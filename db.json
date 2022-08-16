@@ -1,51 +1,55 @@
 {
     "type": [
-        {
+    {
         "id": "1",
         "title": "sports",
         "title_slug": "sports",
+        "followers": "736",
         "full_description": "Here we have a lot of activities.Find the best suit you join the blog right now and let's talk with others passionates",
         "date_added":"14/08/2022",
         "category": "C01",
-        "img":"../../../img/fish_product.png"
-            },
-            {
-            "id": "2",
-            "title": "cooking",
-            "title_slug": "cooking",
-            "full_description": "Here we have a lot of activities.Find the best suit you join the blog right now and let's talk with others passionates",
-            "date_added":"14/08/2022",
-            "category": "C02",
-            "img":"../../../img/fish_product.png"
-            },
-            {
-            "id": "3",
-            "title": "otaku",
-            "title_slug": "otaku",
-            "full_description": "Here we have a lot of activities.Find the best suit you join the blog right now and let's talk with others passionates",
-            "date_added":"14/08/2022",
-            "category": "C03",
-            "img":"../../../img/fish_product.png"
-            },
-            {
-            "id": "4",
-            "title": "video games",
-            "title_slug": "video-games",
-            "full_description": "Here we have a lot of activities.Find the best suit you join the blog right now and let's talk with others passionates",
-            "date_added":"14/08/2022",
-            "category": "C04",
-            "img":"../../../img/fish_product.png"
-            }
+        "img":"/images/gym2.jpg"
+    },
+    {
+        "id": "2",
+        "title": "cooking",
+        "title_slug": "cooking",
+        "followers": "600",
+        "full_description": "Here we have a lot of activities.Find the best suit you join the blog right now and let's talk with others passionates",
+        "date_added":"14/08/2022",
+        "category": "C02",
+        "img":"/images/cooking.jpg"
+    },
+    {
+        "id": "3",
+        "title": "otaku",
+        "title_slug": "otaku",
+        "followers": "1 000",
+        "full_description": "Here we have a lot of activities.Find the best suit you join the blog right now and let's talk with others passionates",
+        "date_added":"14/08/2022",
+        "category": "C03",
+        "img":"/images/otaku.jpg"
+    },
+    {
+        "id": "4",
+        "title": "video games",
+        "title_slug": "video-games",
+        "followers": "1 500",
+        "full_description": "Here we have a lot of activities.Find the best suit you join the blog right now and let's talk with others passionates",
+        "date_added":"14/08/2022",
+        "category": "C04",
+        "img":"/images/gaming1.jpeg"
+    }
             
         ],
-        "categories": [
-            {
-            "id": "C01",
-            "title": "sports"
-            },
-            {
-            "id": "C02",
-            "title": "cooking"
+    "categories": [
+    {
+        "id": "C01",
+        "title": "sports"
+    },
+    {
+        "id": "C02",
+        "title": "cooking"
             },
             {
             "id": "C03",
